@@ -1,0 +1,22 @@
+public class positive 
+{  
+public static void main(String[] args)   
+{   
+int num=912;    
+if(num>0)  
+{  
+System.out.println("The number is positive.");  
+}  
+//checks the number is less than 0 or not  
+else if(num<0)  
+{  
+System.out.println("The number is negative.");  
+}  
+//executes when the above two conditions return false  
+else  
+{  
+System.out.println("the number is zero");
+  }
+  }
+}
+
